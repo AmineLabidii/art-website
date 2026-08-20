@@ -1,6 +1,10 @@
 # Art Website
 
-An art gallery e-commerce platform for a Tunisian art house â€” curated collections, secure checkout, and a full admin suite. Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Supabase**.
+An art gallery e-commerce platform for a Tunisian art house - curated collections, secure checkout, and a full admin suite. Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Supabase**.
+
+## Homepage
+
+![Art website homepage](docs/home.png)
 
 ## Features
 
@@ -52,20 +56,20 @@ pnpm build
 
 ```
 src/
-â”œâ”€â”€ app/
-â”‚   â”œâ”€â”€ components/
-â”‚   â”‚   â”œâ”€â”€ admin/        # Admin dashboard, orders, products, invoices...
-â”‚   â”‚   â”œâ”€â”€ home/         # Hero, BrandStory, FeaturedProducts, Testimonials...
-â”‚   â”‚   â”œâ”€â”€ layout/       # Header, Footer, CartDrawer, Layout
-â”‚   â”‚   â”œâ”€â”€ pages/        # Home, Shop, Collections, Checkout, MyOrders...
-â”‚   â”‚   â”œâ”€â”€ product/      # ProductCard, QuickView
-â”‚   â”‚   â”œâ”€â”€ shared/       # SectionHeading, StarRating, WhatsAppIcon
-â”‚   â”‚   â””â”€â”€ ui/           # shadcn/ui components
-â”‚   â”œâ”€â”€ context/          # Admin, Cart, Wishlist contexts
-â”‚   â”œâ”€â”€ data/             # Products, collections, orders, reviews
-â”‚   â””â”€â”€ lib/              # API, Supabase, invoice, WhatsApp helpers
-â”œâ”€â”€ styles/               # Tailwind, theme, and global styles
-â””â”€â”€ main.tsx              # Entry point
+|-- app/
+|   |-- components/
+|   |   |-- admin/        # Admin dashboard, orders, products, invoices...
+|   |   |-- home/         # Hero, BrandStory, FeaturedProducts, Testimonials...
+|   |   |-- layout/       # Header, Footer, CartDrawer, Layout
+|   |   |-- pages/        # Home, Shop, Collections, Checkout, MyOrders...
+|   |   |-- product/      # ProductCard, QuickView
+|   |   |-- shared/       # SectionHeading, StarRating, WhatsAppIcon
+|   |   `-- ui/           # shadcn/ui components
+|   |-- context/          # Admin, Cart, Wishlist contexts
+|   |-- data/             # Products, collections, orders, reviews
+|   `-- lib/              # API, Supabase, invoice, WhatsApp helpers
+|-- styles/               # Tailwind, theme, and global styles
+`-- main.tsx              # Entry point
 ```
 
 ## Environment
@@ -74,6 +78,6 @@ Backend services require Supabase. See `src/app/lib/supabase.ts` and the `supaba
 
 ## Related
 
-- `guidelines/` â€” AI project guidelines
-- `plans/` â€” project plans and specs
-- `ATTRIBUTIONS.md` â€” asset attributions
+- `guidelines/` - AI project guidelines
+- `plans/` - project plans and specs
+- `ATTRIBUTIONS.md` - asset attributions
